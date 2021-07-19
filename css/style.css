@@ -1,0 +1,140 @@
+/* Reset */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Nunito', sans-serif;
+    color: #0a0a0a;
+}
+
+.clear {
+    clear: both;
+}
+
+input {
+    width: 100%;
+    padding: 5px;
+    font-size: 17px;
+    border-radius: 3px;
+    border: 1px solid #ccc;
+    transition: 1s;
+}
+
+input:focus {
+    outline: 0;
+    transition: 1s;
+    background-color: #3b6ba610;
+}
+
+/* Header */
+header {
+    height: 40px;
+    background-color: #3b6ca6;
+}
+
+/* Estrutura */
+h1 {
+    text-align: center;
+    margin: 50px 0;
+    font-size: 38px;
+    font-weight: 400;
+}
+
+.center {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.center .formulario {
+    width: 40%;
+    padding: 20px;
+}
+
+.center img {
+    width: 50%;
+}
+
+/* Formulário */
+.formulario h2 {
+    font-size: 22px;
+    margin-bottom: 15px;
+    text-align: center;
+    font-weight: 400;
+}
+
+.formulario p {
+    margin-top: 10px;
+    margin-bottom: 5px;
+    padding-left: 5px;
+    font-size: 17px;
+    font-weight: 300;
+}
+
+.formulario .input-row-2 .item-01 {
+    float: left;
+    width: 50%;
+    padding-right: 10px;
+}
+
+.formulario .input-row-2 .item-02 {
+    float: right;
+    width: 50%;
+    padding-left: 10px;
+}
+
+/* Mensagem de erro */
+#cep-msg {
+    display: none;
+    width: 50px;
+    height: 50px;
+    background-color: rgb(235, 26, 26);
+    font-size: 12px;
+    padding: 0 8px;
+    color: white;
+    border-radius: 3px;
+
+    position: relative;
+    top: -1px;
+    left: 10px;
+}
+
+/* Botão */
+.botao {
+    padding: 10px 20px;
+    margin-top: 20px;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    cursor: pointer;
+    font-size: 17px;
+    font-weight: 300;
+    color: white;
+    border: 0;
+    border-radius: 5px;
+
+    transition: 1s;
+    background-color: #3b6ca6;
+}
+
+.botao:hover {
+    transition: 1s;
+    background-color: #1b497d;
+}
+
+/* Footer */
+footer {
+    margin-top: 80px;
+    text-align: center;
+}
+
+#copy {
+    width: 12px;
+}
+
+#creditos {
+    font-size: 17px;
+    font-weight: 300;
+}
