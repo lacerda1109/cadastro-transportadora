@@ -37,7 +37,7 @@ const pesquisarCep = async () => { // Função principal
     }
 
     if (isCep(cep)) {
-        const baseUrl = `http://viacep.com.br/ws/${cep}/json/`
+        const baseUrl = `https://viacep.com.br/ws/${cep}/json/`
         const dados = await fetch(baseUrl).then(response => response.json())
         if (dados.hasOwnProperty('erro')) {
             msgErro.innerHTML = 'CEP não encontrado!'
